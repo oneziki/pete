@@ -72,8 +72,10 @@
 		<!-- Footer Bottom End-->
 	</footer>
 	<!-- Footer End -->
-
 	<!-- Script -->
+	<?php
+	wp_footer();
+	?>
 </body>
 
 </html>

@@ -108,9 +108,17 @@ $(document).ready(function () {
     amount = $('.fun-fact-owl .owl-dot').length;
     gotowidth = 100 / amount;
 
+    function1();
+    
 });
 
 // Back to Top
 $(".back-top .learn-more").click(function () {
     $("html, body").animate({ scrollTop: 0 }, 1000);
 });
+
+ function function1() {
+        var ul = document.getElementById("menu-primary-menu");
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode("Element 4"));
+      }
