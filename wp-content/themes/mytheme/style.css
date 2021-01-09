@@ -13,12 +13,12 @@ Licence: Free
 /* Fonts Start */
 @font-face {
     font-family: 'Droid Serif';
-    src: url('../fonts/DroidSerif.eot');
-    src: url('../fonts/DroidSerif.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/DroidSerif.woff2') format('woff2'),
-        url('../fonts/DroidSerif.woff') format('woff'),
-        url('../fonts/DroidSerif.ttf') format('truetype'),
-        url('../fonts/DroidSerif.svg#DroidSerif') format('svg');
+    src: url('//db.onlinewebfonts.com/t/258e2024617f27a5375b98dd45045979.eot');
+    src: url('//db.onlinewebfonts.com/t/258e2024617f27a5375b98dd45045979.eot?#iefix') format('embedded-opentype'),
+        url('//db.onlinewebfonts.com/t/258e2024617f27a5375b98dd45045979.woff2') format('woff2'),
+        url('//db.onlinewebfonts.com/t/258e2024617f27a5375b98dd45045979.woff') format('woff'),
+        url('//db.onlinewebfonts.com/t/258e2024617f27a5375b98dd45045979.ttf') format('truetype'),
+        url('//db.onlinewebfonts.com/t/258e2024617f27a5375b98dd45045979.svg#Droid Serif') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -155,7 +155,7 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
     .navbar .submenu .nav-item:hover .submenu { display: block !important; }
 }
 
-.dropdown-toggle::after { vertical-align: middle; background: url("./wp-content/themes/mytheme/webfx/assets/images/down-arrow.svg") no-repeat center center; border: none; width: 12px; height: 10px; margin-left: 6px; margin-left: 8px; } 
+.dropdown-toggle::after { vertical-align: middle; background: url("http://localhost/pete/wp-content/uploads/2021/01/down-arrow.svg") no-repeat center center; border: none; width: 12px; height: 10px; margin-left: 6px; margin-left: 8px; } 
 
 .header .container { position: relative; }
 .header .header-search { display: inline-block; vertical-align: middle; margin-left: 2px; }
@@ -179,7 +179,7 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
 .home-slider .slide-content h3 { font-size: 58px; }
 .home-slider .owl-dots { display: none; }
 
-.line-bg { background: url("./wp-content/themes/mytheme/webfx/assets/images/backgroud-line.png") repeat; }
+.line-bg { background: url("http://localhost/pete/wp-content/uploads/2021/01/backgroud-line.png") repeat; }
 
 .welcome-block { padding: 50px 0 60px 0; }
 .welcome-block .welcome-content { margin-top: 35px; }
@@ -204,10 +204,10 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
 .home-services .owl-theme .owl-nav { margin: 0; }
 .home-services .owl-theme .owl-nav [class*=owl-] { margin: 0 15px; }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot { font-size: 0; background-color: transparent !important; }
-.owl-carousel .owl-nav button.owl-next { background: url('../wp-content/themes/mytheme/webfx/assets/images/owl-next.png') no-repeat right center !important; width: 41px; height: 41px; }
-.owl-carousel .owl-nav button.owl-prev { background: url('../wp-content/themes/mytheme/webfx/assets/images/owl-prev.png') no-repeat left center !important; width: 41px; height: 41px; }
+.owl-carousel .owl-nav button.owl-next { background: url('http://localhost/pete/wp-content/uploads/2021/01/owl-next.png') no-repeat right center !important; width: 41px; height: 41px; }
+.owl-carousel .owl-nav button.owl-prev { background: url('http://localhost/pete/wp-content/uploads/2021/01/owl-prev.png') no-repeat left center !important; width: 41px; height: 41px; }
 
-.comman-icon { width: 82px; height: 77px; background: url("../wp-content/themes/mytheme/webfx/assets/images/radius-shap.svg") no-repeat center center; display: inline-flex; align-items: center; justify-content: center; font-size: 50px; color: #231F20; margin-bottom: 12px; }
+.comman-icon { width: 82px; height: 77px; background: url("http://localhost/pete/wp-content/uploads/2021/01/radius-shap.svg") no-repeat center center; display: inline-flex; align-items: center; justify-content: center; font-size: 50px; color: #231F20; margin-bottom: 12px; }
 
 .home-team { min-height: 458px; position: relative; }
 .team-banner { background-color: #FFD655; position: absolute; width: 100%; left: 0; text-align: left; min-height: 458px; }
@@ -226,7 +226,7 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
 
 .home-team .meet-button { margin-top: 20px; }
 
-.exotic-care { display: inline-block; width: 100%; background: #fafafa url('../images/pet-bg.png') no-repeat 0 bottom / 500px auto; }
+.exotic-care { display: inline-block; width: 100%; background: #fafafa url('http://localhost/pete/wp-content/uploads/2021/01/pet-bg.png') no-repeat 0 bottom / 500px auto; }
 .exotic-care .exotic-wrap { width: 83%; float: right; }
 .exotic-images { padding-left: 40px; margin-top: -25px; margin-bottom: -20px; }
 .exotic-images .team-box { display: inline-block; width: auto; padding: 25px; }
@@ -290,7 +290,7 @@ footer.footer { padding-top: 60px; background-color: #fafafa; }
 .footer-social { margin-top: 25px; }
 .footer-social ul { margin: 0; padding: 0; }
 .footer-social ul li { list-style-type: none; display: inline-block; margin-right: 3px; }
-.footer-social ul li a { background: url(../images/radius-shap.svg) no-repeat center center / 100% auto; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; color: #656768; font-size: 38px; line-height: 1; }
+.footer-social ul li a { background: url(http://localhost/pete/wp-content/uploads/2021/01/radius-shap.svg) no-repeat center center / 100% auto; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; color: #656768; font-size: 38px; line-height: 1; }
 .footer-social ul li a::before { position: relative; top: -1px; }
 footer.footer h4 { border-bottom: solid 1px #ffd655; padding-bottom: 8px; max-width: 88%; }
 footer.footer .color-body { color: #656768; }

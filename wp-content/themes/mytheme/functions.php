@@ -22,6 +22,7 @@ register_nav_menus(array(
 
 function onesmus_register_styles(){
     wp_enqueue_style('onesmus-style', get_template_directory_uri() . "/style.css", array('onesmus-bootstrap'), 'all');
+    wp_enqueue_style('onesmus-fonts', get_template_directory_uri() . "/assets/fonts/Perfetto-Regular.ttf", array('onesmus-bootstrap'), 'all');
     wp_enqueue_style('onesmus-bootstrap', get_template_directory_uri() . "/assets/css/bootstrap.min.css", array(), '1.0', 'all');
     wp_enqueue_style('onesmus-owl-1', get_template_directory_uri() . "/assets/css/owl.carousel.min.css", array(), '1.0', 'all');
     wp_enqueue_style('onesmus-owl-2', get_template_directory_uri() . "/assets/css/owl.theme.default.min.css", array(), '1.0', 'all');
