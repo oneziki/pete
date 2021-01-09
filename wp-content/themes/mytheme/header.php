@@ -28,24 +28,36 @@
                     </div>
                     <div class="header-right">
                         <div class="header-content">
-                            <div class="call-us"><span><?php the_field('call_us_today');?></span> <a href="tel:9413557707"><?php the_field('tell_number');?></a></div>
-                            <div class="online-request">
-                                <a href="#" class="btn btn-secondary"><?php the_field('online_phamarcy');?></a>
-                                <a href="#" class="btn btn-primary"><?php the_field('request_an_appointment');?></a>
+                            <div class="call-us">
+                                <span>
+                                    <?php the_field('call_us_today');?>
+                                </span> 
+                                <a href="tel:9413557707">
+                                    <?php the_field('tell_number');?>
+                                </a>
                             </div>
+
+                            <div class="online-request">
+                            <a href="#" class="btn btn-secondary">
+                                <?php the_field('online_phamarcy');?>
+                            </a>
+                            <a href="#" class="btn btn-primary">
+                                <?php the_field('request_an_appointment');?>
+                            </a>
                         </div>
+                        </div>
+                        
                         <div class="header-bottom">
-                            <nav class="site-nav site-header">
+                        <nav class="site-nav">
                                 <?php $args = [
          						'theme_location' =>
                                 'primary', ]; ?>
-
                                 <?php wp_nav_menu($args); ?>
 
-                                <div class="header-search">
+                                <div class="header-search menu-primary-menu-container">
                                     <a href="javascript:void(0);" class="icon-search"></a>
                                 </div>
-                            </nav>
+                        </nav>
                         </div>
                     </div>
                 </div>
