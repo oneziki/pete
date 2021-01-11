@@ -174,7 +174,12 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
     background-color: #FFD655;
     }
 
-
+.owl-dot {
+    border: solid 6px #FFD655;
+    background-size: cover;
+    background-position: center;
+    margin-top: 16px;
+}
 
 @media only screen and (min-width:992px) {
     .navbar .submenu { display: none !important; }
@@ -277,7 +282,7 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
 .fun-fact-owl .owl-dots::-webkit-scrollbar-thumb { background: #ccc; }
 .fun-fact-owl .owl-dots::-webkit-scrollbar-thumb:hover { background: #555; }
 .fun-fact-owl .owl-dot { height: 118px; width: 100%; }
-.fun-fact-owl button.owl-dot { background-size: cover; background-position: center; margin-top: 16px; border: solid 6px #FFD655; box-shadow: 7px 0 20px rgba(0, 0, 0, 0.22); transform: scale(0.9); -webkit-transform: scale(0.9); }
+.fun-fact-owl button.owl-dot { background-size: cover; background-position: center; margin-top: 16px; border: solid 6px #FFD655 !important; box-shadow: 7px 0 20px rgba(0, 0, 0, 0.22); transform: scale(0.9); -webkit-transform: scale(0.9); }
 .fun-fact-owl button.owl-dot.active { border-color: #ffffff; transform: scale(1); -webkit-transform: scale(1); }
 .fun-fact-owl .owl-nav .owl-prev { position: absolute; top: -44px; right: -180px; transform: rotate(90deg); }
 .fun-fact-owl .owl-nav .owl-next { position: absolute; top: 570px; right: -180px; transform: rotate(90deg); }
