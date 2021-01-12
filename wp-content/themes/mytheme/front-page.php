@@ -15,6 +15,12 @@
 	include 'template-parts/home_services.php';
 	?><!-- Home Team End -->
 
+<!-- Our Team Start-->
+	<?php 
+	include 'template-parts/home_team.php';
+	?>
+<!-- Our Team End-->
+
 	<!-- Exotic Care Start --><?php
 	include 'template-parts/exotic_care.php';
 	?><!-- Exotic Care End -->

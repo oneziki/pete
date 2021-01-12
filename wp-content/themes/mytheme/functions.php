@@ -29,7 +29,7 @@ function onesmus_register_styles(){
     wp_enqueue_style('onesmus-iconmoon', get_template_directory_uri() . "/assets/css/icomoon.css", array(), '1.0', 'all');
     wp_enqueue_style('onesmus-responsive', get_template_directory_uri() . "/assets/css/responsive.css", array(), '1.0', 'all');
     wp_enqueue_style('favicon', get_template_directory_uri() . "/inc/images/favicon.ico", array(), '1.0', 'all');
-    wp_enqueue_style('onesmus-owl-2', "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap", array(), '1.0', 'all');
+    wp_enqueue_style('onesmus-owl-2', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap', array(), '1.0', 'all');
     
 }
 

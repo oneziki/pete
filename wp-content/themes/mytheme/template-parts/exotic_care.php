@@ -16,13 +16,13 @@
 								<div class="team-image">
 									<img src="./wp-content/themes/mytheme/webfx/assets/images/exotic-img1.jpg" alt="Exotic" />
 								</div>
-								<div class="team-title"><?php the_field('turtle');?></div>
+								<div class="team-title perfetto-regular"><?php the_field('turtle');?></div>
 							</div>
 							<div class="exotic-image2 team-box">
 								<div class="team-image">
 									<img src="./wp-content/themes/mytheme/webfx/assets/images/exotic-img2.jpg" alt="Exotic" />
 								</div>
-								<div class="team-title"><?php the_field('bearded_dragon');?></div>
+								<div class="team-title perfetto-regular"><?php the_field('bearded_dragon');?></div>
 							</div>
 						</div>
 					</div>

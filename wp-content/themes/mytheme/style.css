@@ -22,17 +22,17 @@ Licence: Free
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Perfetto';
-    src: url('../fonts/Perfetto-Regular.eot');
-    src: url('../fonts/Perfetto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Perfetto-Regular.woff2') format('woff2'),
-        url('../fonts/Perfetto-Regular.woff') format('woff'),
-        url('../fonts/Perfetto-Regular.ttf') format('truetype'),
-        url('../fonts/Perfetto-Regular.svg#Perfetto-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face { 
+font-family: 'Perfetto-Regular'; 
+	src: url(http://onesmus.online/wp-content/themes/mytheme/assets/fonts/Perfetto-Regular.woff2);
+	src: url(http://onesmus.online/wp-content/themes/mytheme/assets/fonts/Perfetto-Regular.woff) format('woff'),
+         url(http://onesmus.online/wp-content/themes/mytheme/assets/fonts/Perfetto-Regular.ttf) format('ttf'),
+         url(http://onesmus.online/wp-content/themes/mytheme/assets/fonts/Perfetto-Regular.svg) format('svg'),
+         url(http://onesmus.online/wp-content/themes/mytheme/assets/fonts/Perfetto-Regular.eot) format('eot'),
+         url(http://onesmus.online/wp-content/themes/mytheme/assets/fonts/Perfetto-Regular) format('regular');
+font-weight: normal; 
 }
+
 
 /* Fonts End */
 
@@ -217,7 +217,7 @@ header.header .online-request .btn:last-child { border-top-right-radius: 0; bord
 .welcome-block .welcome-content { margin-top: 35px; }
 
 .team-box.welcome-box { display: inline-block; padding: 30px; transform: rotate(-6deg); -webkit-transform: rotate(-6deg); max-width: 480px; margin-top: 55px; width: 100%; }
-.welcome-box.team-box .team-title { font-size: 80px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-bottom: 18px; margin-bottom: -8px; }
+.welcome-box.team-box .team-title { font-size: 80px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-bottom: 18px; margin-bottom: -8px; font-family: ;}
 
 .home-services { padding-top: 120px; margin-top: -130px; padding-bottom: 80px; }
 .home-services .service-content { max-width: 605px; }

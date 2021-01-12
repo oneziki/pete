@@ -2,7 +2,7 @@
 	<div class="home-team">
 		<div class="team-banner">
 			<div class="banner-image">
-				<img src="assets/images/team-banner.jpg" alt="Team" />
+				<img src="./wp-content/themes/mytheme/webfx/assets/images/team-banner.jpg" alt="Team" />
 			</div>
 		</div>
 		<div class="team-content">
@@ -27,7 +27,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="team-title">
+								<div class="team-title perfetto-regular">
 								<?php the_field('name_1');?>
 								</div>
 							</div>
@@ -48,7 +48,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="team-title">
+								<div class="team-title perfetto-regular">
 								<?php the_field('name_2');?>
 								</div>
 							</div>
@@ -69,7 +69,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="team-title">
+								<div class="team-title perfetto-regular">
 								<?php the_field('name_3');?>
 								</div>
 							</div>

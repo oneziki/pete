@@ -6,7 +6,7 @@
 						<div class="team-image">
 							<img src="./wp-content/themes/mytheme/webfx/assets/images/welcome-img.jpg" alt="Welcome" />
 						</div>
-						<div class="team-title">
+						<div class="team-title perfetto-regular">
 						<?php the_field('welcome_start'); ?>
 						</div>
 					</div>

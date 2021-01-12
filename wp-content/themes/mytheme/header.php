@@ -22,7 +22,6 @@
                 <div class="header-wrap">
                     <div class="header-logo">
                         <a href="#">
-
 							<img src="./wp-content/themes/mytheme/webfx/assets/images/logo.png" alt="University Animal Clinic" />
                         </a>
                     </div>
